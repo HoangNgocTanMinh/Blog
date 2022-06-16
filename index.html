@@ -9,16 +9,15 @@
 
     <title>Blog Boostrap</title>
 
-    <!-- Bootstrap core CSS -->
     <link href="https://getbootstrap.com/docs/4.0/dist/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
     <link href="https://getbootstrap.com/docs/4.0/examples/carousel/carousel.css" rel="stylesheet">
+    <link rel="stylesheet" href="blog.css">
+
   </head>
   <body>
 
     <header>
-      <nav class="navbar navbar-expand-md navbar-light fixed-top bg-primary">
+      <nav class="navbar-expand-md navbar-light sticky-top bg-primary sticky">
         <a class="navbar-brand" href="#">Kun's Blog</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -29,81 +28,86 @@
               <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
             </li>
           </ul>
-
         </div>
       </nav>
     </header>
-      <main role="main" style="background-color: #86a0fc;">
 
-        <div class="carousel slide" style="background-color: #86a0fc;">
-          <ol class="carousel-indicators">
-          </ol>
-          <div class="carousel-inner bg-primary">
-            <div class="carousel-item active">
-              <div class="container bg-yellow">
-                <div class="carousel-caption text-left">
-                  <h1>Chào Mừng Bạn Đã Đến Với Website của Kun.</h1>
-                  <p style="font-size: 30px;color: red;">Bên Dưới Đây Là 3 Con Vật Quý Hiếm Đã Được lên báo.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          </div>
-          </main>
-          <div class="container marketing">
-            <hr>
-          <div class="row">
-              <div class="col-4">
-                <img src="http://khoahocphattrien.vn/Images/Uploaded/Share/2016/03/01/Nhung-dong-vat-bi-bach-tang-quy-hiem-nhat-tren-the-gioi_3.jpg" alt="Con Tho" width="140" height="140">
-                <p style="font-size: 20px;">Con sóc trắng này là một trong những động vật cực kỳ quý hiếm cũng mắc phải hội chứng Leucism. Theo các nhà khoa học, tỷ lệ xuất hiện một con sóc được sinh ra với gen leucism ít hơn 1/1.000.000.</p>
-              </div>
-              <div class="col-4">
-                <img src="http://khoahocphattrien.vn/Images/Uploaded/Share/2016/03/01/Nhung-dong-vat-bi-bach-tang-quy-hiem-nhat-tren-the-gioi_4.jpg" alt="Chuot Tui" width="140" height="140">
-                <p style="font-size: 20px;">Alf, một chú wallaby bạch tạng bốn tháng tuổi, hiện đang sinh sống trong vườn thú Linton, Cambridgeshire, Anh. Alf thực sự là một động vật bạch tạng hoàn toàn khi có đôi mắt màu hồng với toàn thân màu trắng, thị lực của Alf khá yếu, khả năng bị ung thư cao.</p>
-              </div>
-              <div class="col-4">
-                <img src="http://khoahocphattrien.vn/Images/Uploaded/Share/2016/03/01/Nhung-dong-vat-bi-bach-tang-quy-hiem-nhat-tren-the-gioi_7.jpg" alt="Con Chim" width="140" height="140">
-              <p>Chim bói cá trắng, xuất hiện tại công viên quốc gia Queen Elizabeth ở Uganda lọt top những loài động vật bạch tạng hiếm nhất, hấp dẫn nhất thế giới khi tới hiện nay mới chỉ phát hiện có hai cá thể loài này mắc phải chứng bệnh khiếm khuyết tế bào sắc tố khác biệt Leucism.</p>
-            </div>
+    <main role="main">
+
+      <div class="row">
+        <img
+         class="col-12" style="height: 550px"
+         src="https://img.lovepik.com/photo/40009/1531.jpg_wh860.jpg">
+      </div>
+
+      <hr>
+      <div class="container marketing">
+        <div class="row">
+          <div class="col-4 text-center">
+            <img
+              class="post-image rounded-circle"
+              src="http://khoahocphattrien.vn/Images/Uploaded/Share/2016/03/01/Nhung-dong-vat-bi-bach-tang-quy-hiem-nhat-tren-the-gioi_3.jpg"
+              alt="Con Tho">
+            <h2>Sóc Trắng.</h2>
+            <p style="font-size: 20px;">
+              Con sóc trắng này là một trong những động vật cực kỳ quý hiếm cũng mắc phải hội chứng Leucism. Theo các nhà khoa học, tỷ lệ xuất hiện một con sóc được sinh ra với gen leucism ít hơn 1/1.000.000.
+            </p>
+            <p><a class="btn btn-secondary" href="#" role="button">Tìm Hiểu Thêm.</a></p>
           </div>
 
-          <hr>
-          <div class="row featurette">
-            <div class="col-md-7 order-md-2">
-              <h2 class="featurette-heading">Báo Tuyết.</h2>
-              <p class="lead">Do nạn săn bắn, hiện chỉ còn khoảng 4.000 cá thể báo tuyết sống trong tự nhiên tại những dãy núi ở Trung Á. Bạn có thể chiêm ngưỡng loài động vật quý hiếm này tại vườn thú San Diego, bang California, Mỹ.                .</p>
-            </div>
-            <div class="col-md-5 order-md-1">
-              <img class="featurette-image img-fluid mx-auto" src="https://photo-cms-kienthuc.zadn.vn/zoomh/800/uploaded/nguyenlap/2016_07_28/cuc-dep-hinh-anh-nhung-dong-vat-quy-hiem-nhat-the-gioi.jpg" alt="Con bao">
-            </div>
+          <div class="col-4 text-center">
+            <img
+              class="rounded-circle"
+              src="http://khoahocphattrien.vn/Images/Uploaded/Share/2016/03/01/Nhung-dong-vat-bi-bach-tang-quy-hiem-nhat-tren-the-gioi_4.jpg" alt="Chuot Tui" width="140" height="140">
+            <h2>Chuột Túi.</h2>
+            <p style="font-size:20px; text-align: center">
+              Alf, một chú wallaby bạch tạng bốn tháng tuổi, hiện đang sinh sống trong vườn thú Linton, Cambridgeshire, Anh. Alf thực sự là một động vật bạch tạng hoàn toàn khi có đôi mắt màu hồng với toàn thân màu trắng, thị lực của Alf khá yếu, khả năng bị ung thư cao.
+            </p>
+            <p><a class="btn btn-secondary" href="#" role="button">Tìm Hiểu Thêm.</a></p>
           </div>
-        </hr>
-          <hr>
-          <div class="row featurette">
-            <div class="col-md-7">
-              <h2 class="featurette-heading">Cá Sấu Bạch Tạng.</h2>
-              <p class="lead">Cá sấu bạch tạng cực kỳ hiếm. Rất khó để tìm thấy cá sấu bạch tạng trong tự nhiên, nhưng bạn có thể quan sát 4 cá thể của loài này được nuôi ở Gatorland, bang Florida, Mỹ.</p>
-            </div>
-            <div class="col-md-5">
-              <img class="featurette-image img-fluid mx-auto" src="https://photo-cms-kienthuc.zadn.vn/zoomh/800/uploaded/nguyenlap/2016_07_28/cuc-dep-hinh-anh-nhung-dong-vat-quy-hiem-nhat-the-gioi-Hinh-2.jpg" alt="Ca Sau">
-            </div>
+
+          <div class="col-4 text-center">
+            <img
+            class="post-image rounded-circle"
+            src="http://khoahocphattrien.vn/Images/Uploaded/Share/2016/03/01/Nhung-dong-vat-bi-bach-tang-quy-hiem-nhat-tren-the-gioi_7.jpg"
+            alt="Con Chim">
+            <h2>Chim Bói Cá</h2>
+            <p style="font-size: 20px;">
+            Chim bói cá trắng, xuất hiện tại công viên quốc gia Queen Elizabeth ở Uganda lọt top những loài động vật bạch tạng hiếm nhất, hấp dẫn nhất thế giới khi tới hiện nay mới chỉ phát hiện có hai cá thể loài này mắc phải chứng bệnh khiếm khuyết tế bào sắc tố khác biệt Leucism.
+          </p>
+            <p><a class="btn btn-secondary" href="#" role="button">Tìm Hiểu Thêm.</a></p>
           </div>
-          <hr>
+
+      <hr>
+        <div class="row featurette">
+          <div class="col-md-7 order-md-2">
+            <h2 class="featurette-heading">Báo Tuyết.</h2>
+            <p class="lead">Do nạn săn bắn, hiện chỉ còn khoảng 4.000 cá thể báo tuyết sống trong tự nhiên tại những dãy núi ở Trung Á. Bạn có thể chiêm ngưỡng loài động vật quý hiếm này tại vườn thú San Diego, bang California, Mỹ.                .</p>
+          </div>
+          <div class="col-md-5 order-md-1">
+            <img class="featurette-image img-fluid mx-auto image" src="https://photo-cms-kienthuc.zadn.vn/zoomh/800/uploaded/nguyenlap/2016_07_28/cuc-dep-hinh-anh-nhung-dong-vat-quy-hiem-nhat-the-gioi.jpg" alt="Con bao">
+          </div>
         </div>
-        <footer class="container">
-          <p>Made By Kun</p>
-        </footer>
-      </main>
-  
 
+      <hr>
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading">Cá Sấu Bạch Tạng.</h2>
+            <p class="lead">Cá sấu bạch tạng cực kỳ hiếm. Rất khó để tìm thấy cá sấu bạch tạng trong tự nhiên, nhưng bạn có thể quan sát 4 cá thể của loài này được nuôi ở Gatorland, bang Florida, Mỹ.</p>
+          </div>
+          <div class="col-md-5">
+            <img class="featurette-image img-fluid mx-auto image" src="https://photo-cms-kienthuc.zadn.vn/zoomh/800/uploaded/nguyenlap/2016_07_28/cuc-dep-hinh-anh-nhung-dong-vat-quy-hiem-nhat-the-gioi-Hinh-2.jpg" alt="Ca Sau">
+          </div>
+        </div>
 
+      <hr>
+      <footer class="container">
+        <p>Made By Kun</p>
+      </footer>
 
-
-    </div>
-    </main>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    </body>
+  </body>

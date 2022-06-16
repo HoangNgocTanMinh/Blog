@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="79530556-e097-484f-beb5-58546917ae4e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/blog.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2AeM90jvlYvqOWR1uGc6yKuYBXl" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Blog/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="79530556-e097-484f-beb5-58546917ae4e" name="Default Changelist" comment="" />
+      <created>1655365442067</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1655365442067</updated>
+      <workItem from="1655365443325" duration="7206000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1398" height="212" key="GridCell.Tab.0.bottom" timestamp="1655369394752">
+      <screen x="0" y="25" width="1440" height="827" />
+    </state>
+    <state width="1398" height="212" key="GridCell.Tab.0.bottom/0.25.1440.827@0.25.1440.827" timestamp="1655369394752" />
+    <state width="1398" height="212" key="GridCell.Tab.0.center" timestamp="1655369394751">
+      <screen x="0" y="25" width="1440" height="827" />
+    </state>
+    <state width="1398" height="212" key="GridCell.Tab.0.center/0.25.1440.827@0.25.1440.827" timestamp="1655369394751" />
+    <state width="1398" height="212" key="GridCell.Tab.0.left" timestamp="1655369394750">
+      <screen x="0" y="25" width="1440" height="827" />
+    </state>
+    <state width="1398" height="212" key="GridCell.Tab.0.left/0.25.1440.827@0.25.1440.827" timestamp="1655369394750" />
+    <state width="1398" height="212" key="GridCell.Tab.0.right" timestamp="1655369394752">
+      <screen x="0" y="25" width="1440" height="827" />
+    </state>
+    <state width="1398" height="212" key="GridCell.Tab.0.right/0.25.1440.827@0.25.1440.827" timestamp="1655369394752" />
+    <state x="385" y="176" width="670" height="676" key="search.everywhere.popup" timestamp="1655370986440">
+      <screen x="0" y="25" width="1440" height="827" />
+    </state>
+    <state x="385" y="176" width="670" height="676" key="search.everywhere.popup/0.25.1440.827@0.25.1440.827" timestamp="1655370986440" />
+  </component>
+</project>
